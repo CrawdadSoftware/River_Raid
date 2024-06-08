@@ -1,0 +1,30 @@
+"""
+      0 - null, 1 - samolot, 2 - tło, 3 - woda, (4 - śmigło, 5 - ciało, 6 - środek), (7 - kabina, 8 - pokład, 9 - kadłub),
+      (10 - baza, 11 - asfalt, (1 - pas), (12 - paliwo, 13 - biały), 14 - panel, (1 - litery), ((13 - ściana),
+       15 - drzewo, 16 - pień), (17 - wsparcie, 18 - deska1, 19 - deska2, (1 - pas), (13 - strzał))
+"""
+cor = [0x000000,  # 0 - kolor czarny (null)
+       0xE8E84A,  # 1 - kolor żółty (samolot)
+       0x6E9C42,  # 2 - kolor zielony (tło)
+       0x2D32B8,  # 3 - kolor niebieski (woda)
+       0xD2A44A,  # 4 - kolor brązowy (śmigło)
+       0x004030,  # 5 - kolor ciemnozielony (ciało)
+       0x000089,  # 6 - kolor ciemnoniebieski (środek)
+       0x000000,  # 7 - kolor czarny (kabina)
+       0xA33915,  # 8 - kolor pomarańczowy (pokład)
+       0x54A0C5,  # 9 - kolor jasnoniebieski (kadłub)
+       0x6F6F6F,  # 10 - kolor szary (baza)
+       0xAAAAAA,  # 11 - kolor jasnoszary (asfalt)
+       0xD65C5C,  # 12 - kolor czerwony (paliwo)
+       0xD6D6D6,  # 13 - kolor biały (biały/ściana/strzał)
+       0x8E8E8E,  # 14 - kolor ciemnoszary (panel)
+       0x9ED065,  # 15 - kolor jasnozielony (drzewo)
+       0x474700,  # 16 - kolor ciemnobrązowy (pień)
+       0x7C2C00,  # 17 - kolor brązowy (wsparcie)
+       0x86861D,  # 18 - kolor żółtobrązowy (deska1)
+       0x69690F,  # 19 - kolor ciemnobrązowy (deska2)
+       0xBBBB35,  # 20 - kolor żółty (pas)
+       0x75CCEB,  # 21 - kolor błękitny (dodatkowy kolor)
+       0x75B5EF,  # 22 - kolor niebieski (dodatkowy kolor)
+       0x355F18   # 23 - kolor ciemnozielony (dodatkowy kolor)
+]
